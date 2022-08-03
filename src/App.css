@@ -1,0 +1,78 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+}
+
+header {
+	box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+	padding: 20px 0;
+}
+
+header > img {
+	width: 150px;
+	margin-left: 20px;
+}
+
+
+.Hero{
+  max-width: 90%;
+  margin: 40px auto 0 auto;
+  text-align: center;
+}
+
+.Hero > img{
+	width: 60%;
+}
+
+.Hero > .info{
+  text-align: left;
+  margin-top: 30px;
+}
+.Hero > .info > h3{
+	margin-top: 30px;
+	font-weight:300;
+	max-width: 380px;
+}
+
+.shop-container{
+	width: 70%;
+	margin: 100px auto 0 auto;
+	display: grid;
+	place-items: center;
+	grid-template-columns: repeat(3, 1fr);
+}
+.shop-container > .shop-item > img{
+	width: 100%;
+}
+.shop-container > .shop-item > p{
+	margin-block: 1px;
+}
+
+.shop-container > .shop-item > p > ul{
+	display: inline-block;
+	margin-left:15px;
+}
+
+.shop-container > .shop-item > p > ul:marker{
+	color: #918E9B;
+}
+
+
+.star{
+	width: 13px;
+}
+
+
+.shop-container > .shop-item > p > .light-text{
+	font-weight: 300;
+	color: #918E9B;
+}
+
+.fw-300{
+	font-weight: 300;
+}
