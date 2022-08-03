@@ -2,7 +2,7 @@ import React from "react";
 export default function Hero() {
 	return (
 		<div className="Hero">
-            <img src="../photo-grid.png" />
+            <img src="../images/photo-grid.png" />
             <div className="info">
                 <h1>Online Experiences</h1>
             
